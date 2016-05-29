@@ -413,7 +413,7 @@ button.secondary-toggle {
 		margin: 0 20% 3%;
 	}
 
-	.home #text-3 {
+	.home #text-2 {
 		display: block;
 		overflow: hidden;
 		position: absolute;
@@ -421,7 +421,7 @@ button.secondary-toggle {
 		top: 60%;
 	}
 
-	.home #text-3 a {
+	.home #text-2 a {
 		border: 0;
 		color: #f4eec3;
 		display: block;
@@ -430,11 +430,11 @@ button.secondary-toggle {
 		text-indent: -1000px;
 	}
 
-	.home #text-3 a:hover {
+	.home #text-2 a:hover {
 		color: #fee500;
 	}
 
-	.home #text-3 a:before {
+	.home #text-2 a:before {
 		content: "\f431";
 		font-family: "Genericons";
 		font-size: 50px;
