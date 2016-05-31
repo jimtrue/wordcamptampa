@@ -498,7 +498,7 @@ body.home {
 
 .widget_wcorg_mailchimp_wiget .wcorg-mailchimp label,
 .widget_wcorg_mailchimp_wiget .wcorg-mailchimp input[type="submit"] {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .social-navigation .slack a:before {
