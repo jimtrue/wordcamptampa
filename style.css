@@ -150,6 +150,12 @@ button.secondary-toggle {
 	width: 100%;
 }
 
+h2.widget-title { 
+	color: #fff;
+}
+
+
+
 #text-2 {
 	display: none;
 }
