@@ -150,7 +150,8 @@ button.secondary-toggle {
 	width: 100%;
 }
 
-h2.widget-title { 
+h2.widget-title,
+form.wcorg-mailchimp label { 
 	color: #fff;
 }
 
