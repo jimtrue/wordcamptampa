@@ -324,6 +324,27 @@ form.wcorg-mailchimp label {
 	padding-right: 5px;
 }
 
+.wcpt-schedule a.wcpt-session-title::after {
+	font-family: "Fontawesome";
+	display: block;
+	font-size: 1.4em;
+}
+
+.wcb-track-ecommerce a.wcpt-session-title::after {
+	content: "\f07a";
+}
+
+.wcb-track-developer a.wcpt-session-title::after {
+	content: "\f121";
+}
+.wcb-track-users a.wcpt-session-title::after {
+	content: "\f0c0";
+}
+.wcb-track-business a.wcpt-session-title::after {
+	content: "\f275";
+}
+
+
 .wcpt-schedule .wcpt-session-speakers a {
 	border-bottom: none;
 }
