@@ -340,6 +340,9 @@ form.wcorg-mailchimp label {
 .wcb-track-users a.wcpt-session-title::after {
 	content: "\f0c0";
 }
+.wcb-track-users.wcb-track-beginners a.wcpt-session-title::after {
+	content: "\f0c0&nbsp;\f275";
+}
 .wcb-track-business a.wcpt-session-title::after {
 	content: "\f275";
 }
