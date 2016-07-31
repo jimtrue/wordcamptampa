@@ -341,7 +341,7 @@ form.wcorg-mailchimp label {
 	content: "\f0c0";
 }
 .wcb-track-users.wcb-track-beginner a.wcpt-session-title::after {
-	content: "\f0c0&nbsp;\f275";
+	content: "\f0c0 \f275";
 }
 .wcb-track-business a.wcpt-session-title::after {
 	content: "\f275";
