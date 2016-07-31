@@ -317,6 +317,7 @@ form.wcorg-mailchimp label {
 	display: block;
 	font-size: 85%;
 	font-style: italic;
+	float: right;
 }
 
 .wcpt-schedule .wcpt-session-speakers::before {
@@ -326,7 +327,7 @@ form.wcorg-mailchimp label {
 
 .wcpt-schedule a.wcpt-session-title::before {
 	font-family: "Fontawesome";
-	display: block;
+	display: inline-block;
 	font-size: 85%;
 	padding-right: 5px;
 }
@@ -352,10 +353,8 @@ form.wcorg-mailchimp label {
 }
 
 .wcb-track-keynote a.wcpt-session-title::before {
-	content: "\130";
+	content: "\f130";
 }
-
-
 
 .wcpt-schedule .wcpt-session-speakers a {
 	border-bottom: none;
