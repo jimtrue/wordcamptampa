@@ -374,6 +374,12 @@ form.wcorg-mailchimp label {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.wcpt-track-description {
+	display: block;
+	text-transform: initial;
+	font-weight: 85%;
+}
+
 .content-area button,.content-area input,.content-area select,.content-area textarea {
 	background-color: rgba(255,255,255,.5);
 }
