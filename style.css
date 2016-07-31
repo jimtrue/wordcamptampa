@@ -324,33 +324,34 @@ form.wcorg-mailchimp label {
 	padding-right: 5px;
 }
 
-.wcpt-schedule a.wcpt-session-title::after {
+.wcpt-schedule a.wcpt-session-title::before {
 	font-family: "Fontawesome";
 	display: block;
-	font-size: 1.4em;
+	font-size: 85%;
+	padding-right: 5px;
 }
 
-.wcb-track-developer a.wcpt-session-title::after {
+.wcb-track-developer a.wcpt-session-title::before {
 	content: "\f121";
 }
 
-.wcb-track-users a.wcpt-session-title::after {
+.wcb-track-users a.wcpt-session-title::before {
 	content: "\f0c0";
 }
 
-.wcb-track-beginner a.wcpt-session-title::after {
+.wcb-track-beginner a.wcpt-session-title::before {
 	content: "\f19d";
 }
 
-.wcb-track-business a.wcpt-session-title::after {
+.wcb-track-business a.wcpt-session-title::before {
 	content: "\f275";
 }
 
-.wcb-track-ecommerce a.wcpt-session-title::after {
+.wcb-track-ecommerce a.wcpt-session-title::before {
 	content: "\f07a";
 }
 
-.wcb-track-keynote a.wcpt-session-title::after {
+.wcb-track-keynote a.wcpt-session-title::before {
 	content: "\130";
 }
 
