@@ -330,10 +330,6 @@ form.wcorg-mailchimp label {
 	font-size: 1.4em;
 }
 
-.wcb-track-ecommerce a.wcpt-session-title::after {
-	content: "\f07a";
-}
-
 .wcb-track-developer a.wcpt-session-title::after {
 	content: "\f121";
 }
@@ -342,9 +338,19 @@ form.wcorg-mailchimp label {
 	content: "\f0c0";
 }
 
+.wcb-track-beginner a.wcpt-session-title::after {
+	content: "\f19d";
+}
+
 .wcb-track-business a.wcpt-session-title::after {
 	content: "\f275";
 }
+
+.wcb-track-ecommerce a.wcpt-session-title::after {
+	content: "\f07a";
+}
+
+
 
 .wcpt-schedule .wcpt-session-speakers a {
 	border-bottom: none;
