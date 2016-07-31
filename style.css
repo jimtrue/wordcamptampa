@@ -350,6 +350,10 @@ form.wcorg-mailchimp label {
 	content: "\f07a";
 }
 
+.wcb-track-keynote a.wcpt-session-title::after {
+	content: "\130";
+}
+
 
 
 .wcpt-schedule .wcpt-session-speakers a {
