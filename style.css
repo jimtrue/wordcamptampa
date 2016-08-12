@@ -513,7 +513,8 @@ form.wcorg-mailchimp label {
 		margin-bottom: 30px;
 		display: block;
 	}
-	.tix_tickets_table td {
+	.tix_tickets_table td,
+	.tix_tickets_table table {
 		border: none;
 	}
 	.tix_tickets_table th, 
