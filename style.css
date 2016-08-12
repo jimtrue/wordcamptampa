@@ -509,6 +509,14 @@ form.wcorg-mailchimp label {
 }
 
 @media screen and (max-width: 48em) {
+	.tix_tickets_table tr {
+		margin-bottom: 30px;
+		display: block;
+	}
+	.tix_tickets_table th, 
+	.tix_tickets_table .tix-column-remaining {
+    		display: none;
+	}
 	.tix_tickets_table td.tix-column-price, 
 	.tix_tickets_table td.tix-column-remaining, 
 	.tix_tickets_table td.tix-column-quantity {
@@ -517,11 +525,6 @@ form.wcorg-mailchimp label {
     		font-weight: 600;
     		font-size: 1.2em;
 	}
-	.tix_tickets_table th, 
-	.tix_tickets_table .tix-column-remaining {
-    		display: none;
-	}
-}
 }
 
 
