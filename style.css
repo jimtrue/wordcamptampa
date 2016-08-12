@@ -508,6 +508,23 @@ form.wcorg-mailchimp label {
 	}
 }
 
+@media screen and (max-width: 48em) {
+	.tix_tickets_table td.tix-column-price, 
+	.tix_tickets_table td.tix-column-remaining, 
+	.tix_tickets_table td.tix-column-quantity {
+    		display: inline-block;
+    		width: 30%;
+    		font-weight: 600;
+    		font-size: 1.2em;
+	}
+	.tix_tickets_table th, 
+	.tix_tickets_table .tix-column-remaining {
+    		display: none;
+	}
+}
+}
+
+
 @-moz-keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -554,10 +571,3 @@ body.home {
 	content: "\f198";
 }
 
-@media screen and (max-width: 48em)
-.tix_tickets_table td.tix-column-price, .tix_tickets_table td.tix-column-remaining, .tix_tickets_table td.tix-column-quantity {
-    display: inline-block;
-    width: 30%;
-    font-weight: 600;
-    font-size: 1.2em;
-}
