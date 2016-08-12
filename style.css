@@ -498,23 +498,13 @@ form.wcorg-mailchimp label {
 	}
 }
 
-@-webkit-keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
-}
-
 @media screen and (max-width: 48em) {
 	.tix_tickets_table tr {
 		margin-bottom: 30px;
 		display: block;
 	}
 	.tix_tickets_table td,
-	.tix_tickets_table table {
+	table.tix_tickets_table {
 		border: none;
 	}
 	.tix_tickets_table th, 
@@ -531,6 +521,15 @@ form.wcorg-mailchimp label {
 	}
 }
 
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
 
 @-moz-keyframes fadeIn {
 	from {
