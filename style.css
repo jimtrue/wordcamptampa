@@ -429,6 +429,8 @@ form.wcorg-mailchimp label {
 	.site-footer a:hover {
 		color: #fee500;
 	}
+
+	
 }
 
 @media screen and (min-width: 59.6875em) {
@@ -550,4 +552,12 @@ body.home {
 .social-navigation .slack a:before {
 	font-family: "Fontawesome";
 	content: "\f198";
+}
+
+@media screen and (max-width: 48em)
+.tix_tickets_table td.tix-column-price, .tix_tickets_table td.tix-column-remaining, .tix_tickets_table td.tix-column-quantity {
+    display: inline-block;
+    width: 30%;
+    font-weight: 600;
+    font-size: 1.2em;
 }
