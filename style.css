@@ -526,6 +526,13 @@ h4 img.avatar, .speaker-avatar {
 	}
 }
 
+@media screen and (max-width: 38.75em) {
+	.site-description {
+		display: block;
+		text-indent: 25px;
+	}
+}
+
 @-webkit-keyframes fadeIn {
 	from {
 		opacity: 0;
