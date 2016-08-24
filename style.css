@@ -280,7 +280,7 @@ form.wcorg-mailchimp label {
 	height: 100px;
 }
 
-h4 img.avatar {
+h4 img.avatar, .speaker-avatar {
 	float: left;
 	margin: 0 4% 4% 0;
 }
