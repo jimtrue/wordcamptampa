@@ -280,6 +280,11 @@ form.wcorg-mailchimp label {
 	height: 100px;
 }
 
+h4 img.avatar {
+	float: left;
+	margin: 0 4% 4% 0;
+}
+
 .wcpt-schedule {
 	font-size: 85%;
 	text-align: center;
